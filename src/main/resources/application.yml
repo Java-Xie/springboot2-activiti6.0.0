@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/activiti6?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;useSSL=true
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    tomcat:
+      max-active: 1000
+      max-idle: 1000
